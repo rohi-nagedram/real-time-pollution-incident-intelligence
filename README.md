@@ -25,3 +25,7 @@ integration when external sources are available.
 
 This project focuses on clarity of logic and system design,
 not production deployment.
+## Dashboard
+The project includes a lightweight live console dashboard.
+It displays current pollution readings and highlights incidents
+in real time when PM2.5 exceeds safe levels.
