@@ -1,0 +1,10 @@
+Data Source (Sensors / APIs)
+            ↓
+     Streaming Ingestion
+            ↓
+   Incident Detection Logic
+            ↓
+     Incident Intelligence Output
+
+Each pollution reading is evaluated immediately.
+If PM2.5 exceeds the safe threshold, an incident is flagged.
