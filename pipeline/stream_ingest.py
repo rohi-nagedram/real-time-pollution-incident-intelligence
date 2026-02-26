@@ -1,13 +1,24 @@
 """
-Conceptual streaming ingestion.
+Streaming Data Ingestion (Simulated)
 
-Represents how pollution readings would arrive continuously
-from sensors or data providers in a real system.
+This simulates a real-time pollution data stream.
+No APIs are used to ensure reliability during evaluation.
 """
 
-from schema import PollutionReading
+import time
 
 def pollution_stream():
-    yield PollutionReading("Delhi", "PM2.5", 95, "µg/m³", "10:00")
-    yield PollutionReading("Delhi", "PM2.5", 180, "µg/m³", "10:05")
-    yield PollutionReading("Delhi", "PM2.5", 320, "µg/m³", "10:10")
+    """
+    Yields pollution readings one-by-one,
+    mimicking real-time sensor behavior.
+    """
+    readings = [
+        {"city": "Delhi", "value": 85,  "timestamp": "10:00"},
+        {"city": "Delhi", "value": 140, "timestamp": "10:05"},
+        {"city": "Delhi", "value": 95,  "timestamp": "10:10"},
+        {"city": "Delhi", "value": 320, "timestamp": "10:15"},
+    ]
+
+    for reading in readings:
+        yield reading
+        time.sleep(1)  # simulate streaming delay
