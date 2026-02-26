@@ -1,0 +1,8 @@
+This project demonstrates a real-time pollution incident intelligence system
+focused on Delhi PM2.5 levels.
+
+Pollution readings are processed as a continuous stream, and simple,
+explainable logic is applied to detect unsafe air quality conditions instantly.
+
+The system prioritizes clarity, real-time decision-making, and reliability,
+using simulated data to avoid external dependencies during evaluation.
