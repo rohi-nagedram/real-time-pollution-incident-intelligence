@@ -1,0 +1,23 @@
+[
+  {
+    "city": "Delhi",
+    "pollutant": "PM2.5",
+    "value": 95,
+    "unit": "µg/m³",
+    "timestamp": "10:00"
+  },
+  {
+    "city": "Delhi",
+    "pollutant": "PM2.5",
+    "value": 180,
+    "unit": "µg/m³",
+    "timestamp": "10:05"
+  },
+  {
+    "city": "Delhi",
+    "pollutant": "PM2.5",
+    "value": 320,
+    "unit": "µg/m³",
+    "timestamp": "10:10"
+  }
+]
