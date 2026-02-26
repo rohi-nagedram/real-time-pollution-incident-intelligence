@@ -29,3 +29,11 @@ not production deployment.
 The project includes a lightweight live console dashboard.
 It displays current pollution readings and highlights incidents
 in real time when PM2.5 exceeds safe levels.
+## How It Works (30-second view)
+
+1. Pollution readings arrive as a continuous stream
+2. Each reading is evaluated immediately
+3. If PM2.5 crosses a safe threshold, an incident is flagged
+4. The system prioritizes decision-making over visualization
+
+The project uses simulated data to ensure reliability during evaluation.
